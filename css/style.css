@@ -346,6 +346,7 @@ body {
     background-color: #fff;
     border: none;
     cursor: pointer;
+    z-index: 999;
   }
 
   .menu-button:before {
@@ -378,6 +379,7 @@ body {
 
   .menu-button-active {
     height: 0;
+    z-index: 888;
   }
 
   .menu-button-active:before {
@@ -403,6 +405,7 @@ body {
 
   .header-active {
     display: flex;
+    z-index: 777;
   }
 
   .logo {
